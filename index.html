@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top2{
+            display: grid;
+            padding: 10px;
+            border: 1px solid black;
+            height: 50vh;
+            gap: 5px;
+            background-color: rgb(231, 220, 169); 
+        }
+        .bottom2{
+            background-color: rgb(107, 237, 64); 
+            color: white;
+            font-size: 20px;
+            justify-content: center;
+            align-content: center;
+            display: grid;
+           
+        }
+        .cd12{
+            grid-column-start: 1;
+            grid-column-end:2 ;
+            grid-row-start: 1;
+            grid-row-end: 10;
+           
+           
+        }
+        .cd22{
+            
+            grid-column-start: 2;
+            grid-column-end:8;
+            grid-row-start: 1;
+            grid-row-end: 6;
+        }
+        
+        .cd32{
+            grid-column-start:2;
+            grid-column-end:4;
+            grid-row-start: 6;
+            grid-row-end: 10;
+        }
+        .cd42{
+            grid-column-start:4;
+            grid-column-end:6;
+            grid-row-start: 6;
+            grid-row-end: 10;
+        }
+        .cd52{
+            grid-column-start:6;
+            grid-column-end:8;
+            grid-row-start: 6;
+            grid-row-end: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="top2">
+        <div class="bottom2 cd12">one</div>
+        <div class="bottom2 cd22">two</div>      
+        <div class="bottom2 cd32">three</div>
+        <div class="bottom2 cd42">four</div>
+        <div class="bottom2 cd52">five</xdiv>
+    </div>
+</body>
+</html>
